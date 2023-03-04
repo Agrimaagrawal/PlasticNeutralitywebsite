@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: 'Metrophobic', sans-serif;;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+body{
+    background-color: rgb(238, 238, 238);
+    overflow-x: hidden;
+}
+
+/*Banner section*/
+#banner{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/Banner.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-bottom-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+   display:flex;
+   align-items: center;
+   
+}
+#banner h2{
+    font-size: 8vmin;
+    color:#fff;
+    font-weight: bolder;
+    letter-spacing: -1px;
+     line-height: 47px;
+     margin-bottom:20px
+}
+#banner h4{
+    font-size: 2vmin;
+    color: #fff;
+    margin-bottom:30px;
+}
+.btn{
+    background-color: #ec6a54;
+    padding:15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right:10px;
+}
+.btn a{
+    color:#fff
+}
+
+.navbar{
+    position:absolute;
+    width: 100%;
+   color: whitesmoke;
+   background-color: white;
+   height:90px;
+   display: flex;
+   justify-content: space-between;
+}
+.navul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item a{
+    color:black;
+    font-weight: bolder;
+    margin:50px
+    
+    
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    color: #ec6a54;
+}
+.logo{
+    margin-left:100px;
+}
+.menubtn{
+    position:absolute;
+    top:20px;
+    right:60px;
+    width: 40px;
+    cursor:pointer;
+    display: none;
+}
+.content{
+    margin-left:140px;
+}
+/*About plastic Neutrality*/
+
+.main h2{
+    text-align: center;
+    margin:40px;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 6vmin;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    display: flex;
+    margin-bottom:20px;
+    
+}
+
+
+.imgBx img{
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #b6b6b6;
+    width:70%
+}
+.parabx{
+   height:300px;
+   width: 600px;
+   text-align: left;
+  
+  
+   
+}
+.parabx h2{
+    text-align: left;
+    margin:20px;
+    font-weight: bold;
+}
+.parabx p{
+    font-size: 3vmin;
+    font-weight: bold;
+    padding: 20px;
+    color: #5c5c5c;
+
+}
+.parabx .btn{
+    margin:20px
+
+}
+.parabx2{
+    height:300px;
+   width: 600px;
+   text-align: right;
+}
+.parabx2 h2{
+    margin:20px;
+    font-weight: bold;
+    text-align: right;
+}
+.parabx2 p{
+    font-size: 3vmin;
+    font-weight: bold;
+    padding: 20px;
+    color: #5c5c5c;
+
+}
+.main2{
+    width:100%;
+    height:100vh;
+    background-color: #fff;
+    
+}
+.Hiw{
+    text-align: center;
+    margin:40px;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 5vmin;
+    padding-top: 10px;
+}
+.card2{
+    width:20%;
+    /*margin-bottom: 50px;*/
+    
+    
+}
+.img-box{
+    height:50%;
+}
+.img-box img{
+    width:100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+.img-heading{
+    text-align: center;
+    padding:20px;
+    font-size:2vmin;
+}
+.img-para{
+    padding:20px;
+    text-align: justify;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+
+}
+.inner{
+    margin:auto;
+    width:80%;
+
+}
+.main3{
+    width:100%;
+    height:60vh;
+    background-color: #26b3ac;
+}
+.main3 h2{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 5vmin;
+    padding: 40px;
+    
+}
+.card-body{
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card-icon{
+    width:100%;
+    height:100%;
+}
+.card-image{
+    position:relative;
+    height:150px;
+    width:150px;
+    
+}
+.card-image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 20px;
+}
+.main5{
+    width: 100%;
+    height:100vh;
+    
+}
+.main5 h2{
+    text-align: center;
+    font-size: 6vmin;
+    margin:40px;
+}
+.card-wrapper{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+.slide-container{
+    max-width:1120px;
+    width:100%;
+    
+}
+.slide-content{
+    margin:0 470px
+}
+.card7{
+    border-radius: 25px;
+    border:4px solid #26b3ac;
+    margin-top: 10%;
+    
+    
+}
+.card-content{
+    height:150px;
+    width:150px;
+    margin-top: 10px;
+    text-align: center;
+}
+.main6{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    height:30vh
+    
+}
+.main6 h1{
+    font-size: 5vmin;
+    margin:40px;
+}
+.main6 h2{
+      font-size: 3vmin;
+      margin-bottom:30px;
+}
+.footer{
+    width:100%;
+    height:50vh;
+    background-color: #26b3ac;
+}
+.flex-img{
+    width:200px;
+    height:100px;
+    margin:30px;
+
+
+}
+.flex-img img{
+    width:100%
+}
+.flex1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:whitesmoke;
+}
+.flex-list ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+.flex-list ul li{
+    margin:10px;
+    font-size: 3vmin;
+}
+.main-flex{
+    width:80%;
+    margin:auto;
+    color:white
+}
+.flex-2para{
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:912px) {
+    
+    .menubtn{
+        display: block;
+    }
+    .navbar{
+        margin:0;
+    }
+    #banner{
+        width:100%;
+    }
+    .content {
+        margin:auto;
+       
+    }
+    .logo{
+        margin-left:20px;
+        height:80px;
+        width:100px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height:100vh;
+        justify-content: center;
+        background-color: white;
+        margin-top:-2000px;
+        transition:all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        
+    }
+    .nav-links li{
+        margin:30px;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .imgBx {
+        width:50vh;
+        margin-left:50px;
+    }
+    .parabx , .parabx2 ,.parabx h2{
+        text-align: center;
+    }
+    .parabx2 h2{
+        text-align: center;
+    }
+    .parabx2 p{
+        text-align: center;
+        
+    }
+    
+    .row{
+        flex-direction: column;
+    
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .card2{
+        width:50%;
+        
+    }
+    .main2{
+       background-color:  rgb(238, 238, 238);
+       overflow-y: scroll;
+       display: block;
+
+    }
+    .main3{
+        display:block;
+        overflow-y: scroll;
+    }
+    .flex1{
+        flex-direction: column;
+        margin-bottom:40px;
+    }
+    .footer{
+        height:100vh;
+    }
+    .flex-3span,.flex-3para{
+        text-align: center;
+    }
+    
+    
+    
+
+}
